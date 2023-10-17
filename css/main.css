@@ -1,0 +1,1191 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v14-latin-regular.woff2") format("woff2"), url("../fonts/dm-sans-v14-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/dm-sans-v14-latin-500.woff2") format("woff2"), url("../fonts/dm-sans-v14-latin-500.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/dm-sans-v14-latin-600.woff2") format("woff2"), url("../fonts/dm-sans-v14-latin-600.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/dm-sans-v14-latin-700.woff2") format("woff2"), url("../fonts/dm-sans-v14-latin-700.woff") format("woff");
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v13-latin-regular.woff2"), url("../fonts/inter-v13-latin-regular.woff");
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"), url("../fonts/inter-v13-latin-600.woff") format("woff");
+}
+/* inter-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/inter-v13-latin-600.woff2") format("woff2"), url("../fonts/inter-v13-latin-600.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+body {
+  font-family: "DM Sans", "arial", "sans-serif";
+  font-weight: 600;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header-site {
+  padding-top: 46px;
+  padding-bottom: 100px;
+}
+
+.header-site__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-site__btn {
+  border-radius: 56px;
+  background-color: #4A3AFF;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 40px;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+main {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 530px) {
+  .header-site__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .header-site__btn {
+    margin: 0;
+  }
+}
+.contact {
+  padding-bottom: 150px;
+}
+
+.contect__wrapper {
+  max-width: 500px;
+  width: 100%;
+  padding: 60px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid #DBDBDB;
+  background: #FFF;
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.contact__title {
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.contact__text {
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.top-form__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.top-form__span1 {
+  display: block;
+  height: 20px;
+  font-size: 12px;
+  color: red;
+}
+
+.top-form__span {
+  color: red;
+}
+
+.top-form__first-name {
+  padding: 2px 16px 10px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.top-form__last-name {
+  border: none;
+  padding: 2px 12px 10px;
+}
+
+fieldset {
+  border-radius: 8px;
+  border: 1px solid #D2D5DA;
+  background: #FFF;
+  padding: 2px 12px;
+}
+
+::-moz-placeholder {
+  color: #6C727F;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+::placeholder {
+  color: #6C727F;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top-form__inp-email {
+  display: inline-block;
+  padding: 2px 12px 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.top-form__inp-repeat-password {
+  padding: 2px 12px 10px 0;
+}
+
+legend {
+  color: #121826;
+}
+
+.top-form__inp-password {
+  padding: 2px 12px 10px 0;
+}
+
+.top-form__minwrapper {
+  display: flex;
+  align-items: center;
+}
+
+.btn1,
+.btn2 {
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.top-form__select {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  padding: 2px 16px 10px 0;
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-image: url("../../images/select-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
+  color: #6C727F;
+}
+
+.top-form__inp-addres {
+  padding: 2px 0px 10px;
+  color: #6C727F;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.top-form__label {
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.top-form__label p {
+  margin: 0;
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top-form__link {
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.top-form__chek {
+  display: inline-block;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+  margin-right: 16px;
+}
+
+.top-form__submit-btn {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #2C28E1;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  border: 0;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.get {
+  padding-bottom: 192px;
+}
+
+.get__wrapper {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.get__title {
+  color: #170F49;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.get__text {
+  color: #6F6C90;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 42px;
+}
+
+.get__wrappermin {
+  width: 100%;
+  border-radius: 34px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+
+.get__form {
+  display: block;
+  width: 100%;
+  padding: 32px 55px 80px 46px;
+}
+
+.get__form ::-moz-placeholder {
+  color: #6F6C90;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.get__form ::placeholder {
+  color: #6F6C90;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.get__form label {
+  display: block;
+  width: 100%;
+  color: #170F49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.get__icon {
+  display: block;
+  max-width: 538px;
+  width: 100%;
+  height: 34px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.get__title-min {
+  color: #170F49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0;
+  margin-bottom: 8px;
+  border-top: 1px solid #D9DBE9;
+  padding-top: 64px;
+}
+
+.get__text-min {
+  color: #6F6C90;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.get__wrapper-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+}
+.get__wrapper-flex label {
+  color: #170F49;
+}
+
+.get__label-wrapper1, .get__label-wrapper2, .get__label-wrapper3, .get__label-wrapper4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 9px 5px rgba(217, 219, 233, 0.1490196078);
+  margin-top: 18px;
+  padding-right: 20px;
+}
+
+.get__input-name {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 22px;
+}
+
+.widh {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background-color: transparent;
+  color: #A0A3BD;
+}
+
+.get__input-email {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  padding: 21px 24px 24px 20px;
+  background-color: transparent;
+}
+
+.get__input-tel {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  background-color: transparent;
+  padding: 21px 20px 24px 20px;
+}
+
+.get__input-company {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  background-color: transparent;
+  padding: 21px 24px 24px 20px;
+}
+
+.form {
+  padding: 32px 55px 80px 46px;
+}
+
+.get__icon {
+  display: block;
+  max-width: 538px;
+  width: 100%;
+  height: 34px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.form__title {
+  color: #170F49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0;
+  margin-bottom: 8px;
+  border-top: 1px solid #D9DBE9;
+  padding-top: 64px;
+}
+
+.form__text {
+  color: #6F6C90;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.form__wrapper {
+  display: grid;
+  grid-template-columns: 284px 284px;
+  grid-template-rows: repeat(2, 115px);
+  gap: 22px;
+}
+
+.form__label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(31, 37, 89, 0.07), 0px 2px 11px 0px rgba(69, 65, 164, 0.06);
+}
+
+.form__label:hover {
+  border: 2px solid #4A3AFF;
+}
+
+.form__label:active {
+  border: 2px solid rgba(74, 58, 255, 0.2784313725);
+}
+
+.form__input1, .form__input2, .form__input3, .form__input4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.form__border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #E4E1FF;
+  margin-right: 12px;
+}
+
+.form__span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #D9DBE9;
+  margin-right: 12px;
+}
+
+.form__label {
+  color: #170F49;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.submit__wrapper {
+  padding: 32px 55px 80px 46px;
+}
+
+.submit__border {
+  border: 1px solid #D9DBE9;
+  margin-bottom: 40px;
+}
+
+.submitt {
+  display: block;
+  margin: 0 auto;
+}
+
+.submit__title {
+  color: #170F49;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.submit__text {
+  max-width: 495px;
+  color: #6F6C90;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.btn-submit {
+  display: block;
+  width: 150px;
+  border-radius: 56px;
+  background-color: #4A3AFF;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  border: none;
+  text-decoration: none;
+}
+
+.form__input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.form__input:checked ~ .form__span {
+  border: 8px solid #4A3AFF;
+}
+
+@media only screen and (max-width: 710px) {
+  .get__wrapper-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .get__label-wrapper1,
+  .get__label-wrapper2,
+  .get__label-wrapper3,
+  .get__label-wrapper4 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .get__title-min {
+    text-align: center;
+  }
+  .get__text-min {
+    text-align: center;
+  }
+  .form__wrapper {
+    justify-content: center;
+    grid-template-columns: 284px;
+    grid-template-rows: repeat(4, 115px);
+    gap: 22px;
+  }
+  .form__title {
+    text-align: center;
+  }
+  .form__text {
+    text-align: center;
+  }
+}
+.project {
+  padding-bottom: 305px;
+}
+
+.project__title {
+  color: #170F49;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 50px;
+}
+
+.project__list {
+  display: block;
+  max-width: 698px;
+  width: 100%;
+  padding: 60px 30px 134px 60px;
+  margin: 0 auto;
+  list-style: none;
+  border-radius: 34px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+}
+
+.project__list li {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 16px;
+}
+
+.btn1,
+.btn2 {
+  position: relative;
+}
+
+.slesh1,
+.slesh2 {
+  display: none;
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  font-size: 24px;
+}
+
+.darc {
+  display: block;
+}
+
+.lol {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 280px;
+  width: 100%;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 0px 1px #ED0202;
+  margin-top: 18px;
+  padding-right: 20px;
+}
+
+.lol .widh {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background-color: transparent;
+  color: #ED0202;
+}
+
+.lol ::-moz-placeholder {
+  color: #ED0202;
+}
+
+.lol ::placeholder {
+  color: #ED0202;
+}
+
+.ccol {
+  border: 1px solid #ED0202;
+  color: #ED0202;
+}
+
+.ccol legend {
+  color: #ED0202;
+}
+
+.ccol ::-moz-placeholder {
+  color: #ED0202;
+}
+
+.ccol ::placeholder {
+  color: #ED0202;
+}
+
+.ccol .pi {
+  color: #ED0202;
+}
+
+.ccol p {
+  color: #ED0202;
+}
+
+.ccol .widh {
+  color: #ED0202;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 56px;
+  border-top: 1px solid #6F6C90;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text {
+  color: #6F6C90;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.footer__form {
+  display: block;
+  max-width: 507px;
+  width: 100%;
+}
+
+.footer__label {
+  display: flex;
+  align-items: center;
+  max-width: 507px;
+  width: 100%;
+  border-radius: 60px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 8px 25px 0px rgba(13, 10, 44, 0.06);
+  padding-left: 31px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer-input {
+  display: block;
+}
+
+.footer__button {
+  border-radius: 56px;
+  background: #4a3aff;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  padding: 15px 26px;
+  border: 0;
+  color: #FFF;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 18px;
+}
+
+@media only screen and (max-width: 950px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+}/*# sourceMappingURL=main.css.map */

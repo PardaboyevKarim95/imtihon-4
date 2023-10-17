@@ -1,0 +1,110 @@
+.project {
+  // display: none;
+  padding-bottom: 305px;
+}
+
+.project__title {
+  color:  #170F49;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 50px;
+}
+
+.project__list {
+  display: block;
+  max-width: 698px;
+  width: 100%;
+  padding: 60px 30px 134px 60px;
+  margin: 0 auto;
+  list-style: none;
+  border-radius: 34px;
+    border: 1px solid  #EFF0F6;
+    background:  #FFF;
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+   
+
+}
+.project__list li {
+   color: #000;
+
+   font-feature-settings: 'clig' off, 'liga' off;
+   font-size: 34px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 46px;
+margin-bottom: 16px;
+ }
+
+
+
+.btn1,
+.btn2 {
+  position: relative;
+}
+
+.slesh1,
+.slesh2 {
+  display: none;
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  // color: red;
+  font-size: 24px;
+}
+
+.darc {
+  display: block;
+}
+
+.lol {
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 280px;
+  width: 100%;
+  // border: 2px solid #d9dbe926;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 0px 1px #ED0202;
+  margin-top: 18px;
+  padding-right: 20px;
+}
+.lol .widh {
+   display: inline-block;
+   width: 20px;
+   height: 22px;
+   background-color: transparent;
+   color: #ED0202;
+ }
+
+.lol ::placeholder {
+  color: #ED0202;
+}
+
+.ccol {
+  border: 1px solid #ED0202;
+  color: #ED0202;
+}
+
+.ccol legend {
+  color: #ED0202;
+}
+
+.ccol ::placeholder {
+  color: #ED0202;
+}
+
+.ccol .pi {
+  color: #ED0202;
+}
+
+.ccol p {
+  color: #ED0202;
+}
+.ccol .widh{
+  color: #ED0202;
+}

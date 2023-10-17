@@ -1,0 +1,213 @@
+.contact {
+  padding-bottom: 150px;
+}
+
+.contect__wrapper {
+  max-width: 500px;
+  width: 100%;
+  padding: 60px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 2px solid #DBDBDB;
+
+  background: #FFF;
+
+  box-shadow: 0px 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+
+.contact__title {
+  color: #000;
+
+  text-align: center;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.contact__text {
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.top-form {}
+
+.top-form__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.top-form__span1 {
+  display: block;
+ height: 20px;
+  font-size: 12px;
+  color: red;
+}
+.top-form__span {
+  color: red;
+}
+
+.top-form__first-name {
+  padding: 2px 16px 10px;
+
+}
+
+input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.top-form__last-name {
+  border: none;
+  padding: 2px 12px 10px;
+}
+
+fieldset {
+  border-radius: 8px;
+  border: 1px solid #D2D5DA;
+  background: #FFF;
+  // box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
+  padding: 2px 12px;
+
+}
+
+::placeholder {
+  color: #6C727F;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top-form__inp-email {
+  display: inline-block;
+  padding: 2px 12px 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+
+.top-form__inp-repeat-password {
+  padding: 2px 12px 10px 0;
+
+}
+
+legend {
+  color: #121826;
+}
+
+.top-form__inp-password {
+  padding: 2px 12px 10px 0;
+
+}
+
+.top-form__minwrapper {
+  display: flex;
+  align-items: center;
+}
+
+.btn1,
+.btn2 {
+  padding: 0;
+  border: 0;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.top-form__select {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  padding: 2px 16px 10px 0;
+  outline: none;
+  appearance: none;
+  border: none;
+  background-image: url("../../images/select-icon.svg");
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
+  color: #6C727F;
+}
+
+
+.top-form__inp-addres {
+  padding: 2px 0px 10px;
+  color: #6C727F;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.top-form__label {
+  display: flex;
+  align-items: start;
+  margin-top: 20px;
+}
+
+.top-form__label p {
+  margin: 0;
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top-form__link {
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+
+}
+
+.top-form__chek {
+  display: inline-block;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  padding: 5px;
+  margin-right: 16px;
+}
+
+.top-form__submit-btn {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #2C28E1;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  border: 0;
+  margin-top: 35px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,40 @@
+.header-site {
+  padding-top: 46px;
+  padding-bottom: 100px;
+}
+
+.header-site__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header-site__btn {
+  border-radius: 56px;
+  background-color: #4A3AFF;
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  color: #fff;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 20px 40px;
+  margin-left: auto;
+  text-decoration: none;
+}
+main {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 530px) {
+  .header-site__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+    .header-site__btn {
+      margin: 0;
+    }
+}
